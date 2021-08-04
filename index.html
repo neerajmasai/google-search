@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Google Search</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <div class="searchbar">
+            <input type="text" name="" id="query">
+            <button id="closeBtn" class="close-btn"><span class="material-icons">close</span></button>
+            <button id="voiceBtn" class="voice-btn"><span class="material-icons">mic</span></button>
+            <button onclick="search()" id="searchBtn" class="search-btn"><span class="material-icons">search</span></button>
+        </div>
+        <div class="misc-nav-items">
+            <span class="material-icons">settings</span>
+            <span class="material-icons">apps</span>
+        </div>
+    </div>
+
+    <div id="searchResults" class="search-div">
+
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

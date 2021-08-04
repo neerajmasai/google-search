@@ -1,0 +1,81 @@
+button:hover{
+    cursor: pointer;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    margin: 30px;
+    align-items: center;
+}
+
+.logo > img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar{
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    align-items: center;
+    gap: 8px;
+}
+.searchbar > input{
+    width: 65%;
+    border: none;
+}
+.searchbar > input:focus{
+    outline: none;
+}
+.searchbar > input:hover{
+    outline: none;
+}
+.search-btn{
+    background-color: white;
+    border: none;
+}
+.search-btn > span{
+    color: rgb(0, 119, 255);
+    font-size: 20px;
+}
+.close-btn{
+    width: 50px;
+    background-color: white;
+    border: none;
+    border-right: 1px solid rgb(212, 212, 212);
+}
+.close-btn > span{
+    color: grey;
+    font-size: 20px;
+}
+.voice-btn{
+    background-color: white;
+    border: none;
+}
+.voice-btn > span{
+    color: grey;
+    font-size: 20px;
+}
+.misc-nav-items{
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    gap:30px;
+    color: grey;
+}
+.search-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    margin-left: 30px;
+}
